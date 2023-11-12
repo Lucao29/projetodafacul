@@ -1,0 +1,199 @@
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+    :root {
+ --primary-color:#121528;
+ --segund-color:#31313b;
+ --tree-color:#feb200;
+ --white:white;
+ --fontfamily: 'Tilt Neon', sans-serif;
+
+    } 
+
+body {
+    background-color:var(--primary-color);
+}
+html {
+    width: 92vw;
+}
+
+header {
+    width: 60%;
+    display: flex;
+    justify-content: center center;
+    text-align: center;
+    font-size: 40px;
+    color:var(--tree-color);
+    padding: 20px;
+    font-family: var(--fontfamily);
+    ;
+    cursor: pointer;
+    
+}
+nav{
+    width: 90%;
+    margin-top: 20px;
+}
+ul{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction:row;
+    margin-left: 30px;
+
+}
+
+li {
+
+    list-style: none;
+    cursor:pointer;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.bloco {
+    
+}
+
+h1{
+    padding: 10px;
+}
+
+#banner {
+    display: grid;
+    width: 110%;
+    height: 400px;
+grid-template-columns: repeat(2,1fr);
+row-gap: 40px;
+column-gap: 40px;
+background-size: cover;
+background-image: url(liquid-cheese.svg);
+background-repeat:no-repeat;
+background-size: cover;
+padding: 2%;
+
+
+}
+
+.content {
+    font-family: var(--fontfamily);
+    font-size: 70px;
+    padding: 20px;
+color: var(--white);
+}
+
+.imagem {
+    background-size: cover;
+   
+}
+  
+   
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+  
+}
+
+.conteudo {
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+    
+    
+}
+
+.card {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 20px;
+    cursor:pointer;
+    flex-direction: column;
+    padding: 0px 0px 30px 20px;
+    font-size: 20px;
+font-family: var(--fontfamily);
+color: var(--segund-color);
+transition: .5s;
+}
+
+.card:hover {
+    
+}
+
+.color-1 {
+    background-color: #31313b;
+    color: #feb200;
+}
+
+.color-2{
+    background-color: #feb200;
+}
+
+.color-3 {
+    background-color: #31313b;
+    color: #feb200;
+}
+
+.img {
+  
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+display: flex;
+flex-direction: center;
+
+
+}
+
+.Contato {
+   display:flex;
+   flex-direction: center;
+   justify-content: space-between;
+   width: 110%;
+   height: 600%;
+   margin-top: 100px;
+   color: var(--tree-color);
+   font-size: 30px;
+   font-family: var(--fontfamily);
+   padding: 4%;
+   background-color: #feb200;
+   color: var(--primary-color);
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    font-size: 20px;
+flex-direction: column;
+justify-content: center center;
+margin-right: 200px;
+margin-top: 10%;
+}
+
